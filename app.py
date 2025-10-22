@@ -19,5 +19,5 @@ if st.button("Submit"):
         answer=llm.invoke(question)
         st.write(answer.content)
     else:
-        print("Please enter a question")
+        st.write("Please enter a question")
 
